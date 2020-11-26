@@ -71,15 +71,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Start Screen
     Plug 'mhinz/vim-startify'
-    " Vista
-    Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
     " Zen mode
     Plug 'junegunn/goyo.vim'
     " Snippets
     Plug 'honza/vim-snippets'
-    Plug 'mattn/emmet-vim'
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " Better tabline
@@ -88,12 +85,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mbbill/undotree'
     " Find and replace
     Plug 'ChristianChiarulli/far.vim'
-    " Auto change html tags
-    Plug 'AndrewRadev/tagalong.vim'
     " live server
     Plug 'turbio/bracey.vim'
-    " Smooth scroll
-    Plug 'psliwka/vim-smoothie'
     " " async tasks
     Plug 'skywind3000/asynctasks.vim'
     Plug 'skywind3000/asyncrun.vim'
@@ -101,9 +94,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
-    " Easily Create Gists
-    Plug 'mattn/vim-gist'
-    Plug 'mattn/webapi-vim'
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Intuitive buffer closing
@@ -111,8 +101,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debugging
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
-    " Neovim in Browser
-    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
@@ -145,7 +133,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'terryma/vim-multiple-cursors'
     " Plug 'kaicataldo/material.vim'
     " Plug 'tomasiser/vim-code-dark'
-    " Plug 'mg979/vim-xtabline'
+    Plug 'mg979/vim-xtabline'
     " Files
     " Plug 'tpope/vim-eunuch'
     " Vim Wiki
